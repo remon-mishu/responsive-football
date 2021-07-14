@@ -7,7 +7,7 @@ body {
 	font-family: "Poppins", sans-serif;
 }
 .container {
-	width: 1080px;
+	width: 1050px;
 	margin: 0 auto;
 }
 /*-------------------
@@ -30,30 +30,30 @@ body {
 	color: #fff;
 	line-height: 80px;
 }
-.banner-text a {
+.cmn-but {
 	padding: 10px 24px;
 	background-color: #e02c6d;
-  border: 1px solid #e02c6d;
+	border: 1px solid #e02c6d;
 	text-decoration: none;
 	font-size: 16px;
 	font-weight: 400;
 	color: #fff;
-  transition: 0.5s;
+	transition: 0.5s;
 }
-.banner-text a:hover{
-  background-color: transparent;
-  border: 1px solid #e02c6d;
+.cmn-but:hover {
+	background-color: transparent;
+	border: 1px solid #e02c6d;
 }
-.banner-text a i {
+.cmn-but i {
 	margin-left: 10px;
 }
 .banner-img img {
 	width: 556px;
 	height: 438px;
-  transition: 0.5s;
+	transition: 0.5s;
 }
-.banner:hover .banner-img img{
-  transform: scale(0.8);
+.banner:hover .banner-img img {
+	transform: scale(0.8);
 }
 /*-------------------
  Banner section end
@@ -68,13 +68,12 @@ body {
 .all-players {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-column-gap: 44px;
-	grid-row-gap: 44px;
+	grid-column-gap: 30px;
+	grid-row-gap: 30px;
 }
 .player {
 	padding: 15px 15px 33px 15px;
-	width: 300px;
-	box-shadow: 0px 0px 39px -8px rgba(0, 0, 0, 0.72);
+	box-shadow: 0px 0px 35px -10px rgba(0, 0, 0, 0.72);
 }
 .player img {
 	width: 300px;
@@ -101,45 +100,48 @@ body {
 /*-------------------
  career section start
 ---------------------*/
-.career{
-  padding: 86px 0;
-
+.career {
+	padding: 86px 0;
 }
-.career .heading{}
-.career .heading h1{
-  text-align: center;
-  font-size: 30px;
-  font-weight: 700;
+.career .heading {
 }
-.single-player{
-  margin-top: 40px;
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0px 0px 39px -8px rgba(0, 0, 0, 0.72);
-  border-radius: 10px;
+.cmn-heading h1 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
 }
-.single-player .player-img{
-  height: 256px;
+.single-player {
+	margin-top: 40px;
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0px 0px 35px -10px rgba(0, 0, 0, 0.72);
+	border-radius: 10px;
 }
-.single-player .player-img img{
-  width: 300px;
-  height: 256px;
-  border-radius: 10px;
+.single-player .player-img {
+	height: 256px;
 }
-.player-content{}
-.player-content h2{
-  text-align: center;
-  font-size: 22px;
-  font-weight: 700;
+.single-player .player-img img {
+	width: 300px;
+	height: 256px;
+	border-radius: 10px;
 }
-.stats{
-  display: flex;
-  justify-content: space-between;
+.player-content {
 }
-.player-content .right-side{}
-.player-content .left-side{}
+.player-content h2 {
+	text-align: center;
+	font-size: 22px;
+	font-weight: 700;
+}
+.stats {
+	display: flex;
+	justify-content: space-between;
+}
+.player-content .right-side {
+}
+.player-content .left-side {
+}
 /*-------------------
  career section end
 ---------------------*/
@@ -147,7 +149,25 @@ body {
 /*-------------------
  Blog section start
 ---------------------*/
-
+.blogs{
+	padding: 86px 0;
+}
+.blog{
+	margin-top: 40px;
+}
+.blogs p {
+	font-size: 16px;
+	font-weight: 400;
+	color: #6c6c6c;
+	line-height: 26px;
+}
+.blog-but {
+	text-align: center;
+	margin-top: 50px;
+}
+.blogs .cmn-but:hover {
+	color: #e02c6d;
+}
 /*-------------------
  Blog section start
 ---------------------*/
