@@ -1,0 +1,214 @@
+/* Mobile Device */
+@media (max-width: 687.98px) {
+	.container {
+		width: 100%;
+	}
+	/* Banner start */
+	.banner {
+		padding: 48px 0;
+	}
+	.banner-content {
+		display: block;
+	}
+	.banner-text {
+		margin-bottom: 56px;
+		padding-left: 20px;
+	}
+	.banner-text h1 {
+		font-size: 47px;
+		line-height: 58px;
+	}
+	.banner-img {
+		text-align: center;
+	}
+	.banner-img img {
+		width: 83%;
+		height: auto;
+	}
+	/* Banner end */
+
+	/* Player start */
+	.players {
+		padding-bottom: 0;
+	}
+	.all-players {
+		padding: 0 20px;
+		grid-template-columns: repeat(1, 1fr);
+		grid-column-gap: 25px;
+		grid-row-gap: 25px;
+	}
+	.player img {
+		width: 100%;
+		height: auto;
+	}
+	/* Player end */
+
+	/* Career start */
+	.career {
+		padding-bottom: 0;
+	}
+	.single-player {
+		display: block;
+	}
+	.single-player .player-img {
+		height: auto;
+		text-align: center;
+	}
+	.single-player .player-img img {
+		width: 240px;
+		height: auto;
+	}
+	.stats {
+		display: block;
+	}
+	/* Career end */
+
+	/* Blogs start */
+	.blogs {
+		padding-bottom: 0;
+	}
+	.blog-content {
+		padding: 0 20px;
+	}
+	.blog-img img {
+		width: 100%;
+	}
+	/* Blogs end */
+
+	/* Footer start */
+	footer img {
+		width: 80%;
+		height: auto;
+	}
+	/* Footer end */
+}
+
+/* Tablet device */
+@media (min-width: 688px) and (max-width: 991.98px) {
+	.container {
+		width: 100%;
+	}
+	/* Banner start */
+	.banner-text {
+		padding-left: 20px;
+	}
+	.banner-text h1 {
+		font-size: 43px;
+		line-height: 58px;
+	}
+	.banner-img {
+		text-align: center;
+	}
+	.banner-img img {
+		width: 83%;
+		height: auto;
+	}
+	/* Banner end */
+
+	/* Player start */
+	.players {
+		padding-bottom: 0;
+	}
+	.all-players {
+		padding: 0 20px;
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: 25px;
+		grid-row-gap: 25px;
+	}
+	.player img {
+		width: 100%;
+		height: auto;
+	}
+	/* Player end */
+
+	/* Career start */
+	.career {
+		padding-bottom: 0;
+	}
+	.single-player .player-img {
+		height: auto;
+	}
+	.single-player .player-img img {
+		width: 240px;
+		height: auto;
+	}
+	.stats {
+		display: block;
+	}
+	/* Career end */
+
+	/* Blogs start */
+	.blogs {
+		padding-bottom: 0;
+	}
+	.blog-content {
+		padding: 0 20px;
+	}
+	/* Blogs end */
+}
+
+/* Large Device */
+@media (min-width: 992px) and (max-width: 1079.98px) {
+	.container {
+		width: 100%;
+	}
+	/* Banner start */
+	.banner-text {
+		padding-left: 20px;
+	}
+	.banner-text h1 {
+		font-size: 54px;
+		line-height: 80px;
+	}
+	.banner-img {
+		text-align: center;
+	}
+	.banner-img img {
+		width: 83%;
+		height: auto;
+	}
+	/* Banner end */
+
+	/* Player start */
+	.players {
+		padding-bottom: 0;
+	}
+	.all-players {
+		padding: 0 20px;
+		grid-column-gap: 25px;
+		grid-row-gap: 25px;
+	}
+	.player img {
+		width: 100%;
+		height: auto;
+	}
+	/* Player end */
+
+	/* Career start */
+	.career {
+		padding-bottom: 0;
+	}
+	.single-player {
+		margin: 40px 20px 0;
+	}
+	.single-player .player-img {
+		height: auto;
+	}
+	.single-player .player-img img {
+		width: 240px;
+		height: auto;
+	}
+	/* Career end */
+
+	/* Blogs start */
+	.blogs {
+		padding-bottom: 0;
+	}
+	.blog {
+		padding: 0 20px;
+	}
+	.blog-content {
+		padding: 0 20px;
+	}
+	/* Blogs end */
+}
